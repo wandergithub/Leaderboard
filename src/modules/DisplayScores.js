@@ -1,4 +1,4 @@
-import Player from "./player.js";
+import Player from './Player.js';
 
 const displayScore = (player, ul) => {
   const li = document.createElement('li');
@@ -10,15 +10,14 @@ async function usersList() {
   const id = JSON.parse(localStorage.getItem('gameID'));
   const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`);
   const json = await response.json();
-  console.log(json.result);
-  return  json.result;
+  return json.result;
 }
 
 const displayScores = async () => {
   const ul = document.querySelector('.score-list');
-  ul.innerHTML = "";
+  ul.innerHTML = '';
   const players = await usersList();
-  players.forEach(player => {
+  players.forEach((player) => {
     const playerInfo = new Player(player.user, player.score);
     displayScore(playerInfo, ul);
   });

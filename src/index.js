@@ -1,9 +1,10 @@
 import './style.css';
-import initID from './modules/init.js'; 
+import initID from './modules/init.js';
 import displayScores from './modules/DisplayScores.js';
 import addNew from './modules/addNew.js';
+
 const refreshButton = document.getElementById('refresh-btn');
-const addButton =document.getElementById('add-btn');
+const addButton = document.getElementById('add-btn');
 
 initID();
 refreshButton.addEventListener('click', displayScores);
