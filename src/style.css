@@ -31,4 +31,6 @@ button {
   display: flex;
   flex-direction: column;
   padding-left: 10%;
+  min-width: 169px;
+  min-height: 204px;
 }
