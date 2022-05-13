@@ -20,20 +20,20 @@
 [Live Demo Link](https://wandergithub.github.io/Leaderboard/)
 
 
-### Usage
+## Usage
 
 Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
 ```shell
 # Clone the repo
 git clone https://github.com/wandergithub/Leaderboard
+# Change directory
 cd Leaderboard
 # Install dependencies
 npm i
 # Start local server
 npm run start
 ```
-
 
 ## Authors
 
