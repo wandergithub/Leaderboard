@@ -2,7 +2,7 @@
 
 # Leaderboard   <img src="https://img.icons8.com/external-filled-outline-wichaiwi/344/external-description-e-commerce-website-filled-outline-wichaiwi.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-> This project is a website that displays scores submitted by different players. It also allows you to submit your score.
+> This project is a website that displays scores submitted by different players. It also allows you to submit your score. All functionality is implemented throughout a leaderboard API service provided by microverse.
 
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
