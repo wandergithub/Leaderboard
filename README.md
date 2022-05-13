@@ -10,22 +10,29 @@
 
 ## Built With
 
-- webpack
+- Webpack
 - Javascript
 - HTML & CSS
+- Bootstrap
 
 ## Live Demo 
 
-[Live Demo Link](https://wandergithub.github.io/To-do-list/)
+[Live Demo Link](https://wandergithub.github.io/Leaderboard/)
 
 
-### Setting the project: Steps.
-1. Clone github repo into your local machine
-  > `git clone <repo link>`
-2. Install all dependencies using npm install 
-  > `npm install`
-3. Run the local server and see the project.
-  > `npm run start`
+### Usage
+
+Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
+
+```shell
+# Clone the repo
+git clone https://github.com/wandergithub/Leaderboard
+cd Leaderboard
+# Install dependencies
+npm i
+# Start local server
+npm run start
+```
 
 
 ## Authors
