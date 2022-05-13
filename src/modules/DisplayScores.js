@@ -3,6 +3,7 @@ import Player from './Player.js';
 const displayScore = (player, ul) => {
   const li = document.createElement('li');
   li.innerHTML = `${player.userName}: ${player.score}`;
+  li.classList.add('list-group-item');
   ul.appendChild(li);
 };
 
