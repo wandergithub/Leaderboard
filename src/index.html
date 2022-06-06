@@ -8,7 +8,7 @@
 </head>
 <body>
   <main class="container-fluid">
-    <h1 class="mx-auto my-5 display-1 border-bottom">Leaderboard</h1>
+    <h1 class="mx-auto my-5 display-1 border-bottom border-dark bg-primary shadow rounded">Leaderboard</h1>
     <section>
       <div class="container-fluid">
         <div class="score-container my-3"><h2 class="display-4">Recent scores</h2><button class="btn btn-primary mx-3" id="refresh-btn" type="button">Refresh</button></div>
@@ -20,11 +20,11 @@
         <form>
           <div class="mb-3">
             <label for="name" class="form-label"></label>
-            <input class="form-control" type="text" name="name" id="name" placeholder="Your name">  
+            <input class="form-control" type="text" name="name" id="name" placeholder="Your name" maxlength="20">  
           </div>
           <div>
             <label for="score" class="form-label"></label>
-            <input class="form-control" type="text" name="score" id="score" placeholder="Your score">  
+            <input class="form-control" type="text" name="score" id="score" placeholder="Your score" maxlength="10">  
           </div>
           <button id="add-btn" type="button" class="btn btn-primary my-3">Add</button>
         </form>
