@@ -7,7 +7,7 @@ const displayScore = (player, ul) => {
   ul.appendChild(li);
 };
 
-async function usersList() {
+ const usersList = async () => {
   const id = JSON.parse(localStorage.getItem('gameID'));
   const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`);
   const json = await response.json();
